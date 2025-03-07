@@ -1,0 +1,57 @@
+/* Style.css */
+
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+#top {
+    color: green;
+}
+
+h1 {
+    margin-top: 30px;
+}
+
+#searchBox {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    border-radius: 15px;
+    text-align: center;
+    height: 50px;
+    width: 600px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type="text"]:focus {
+    width: 80%;
+}
+
+.searchResult {
+    background-color: rgb(153, 225, 155);
+    color: rgb(18, 17, 17);
+    padding: 15px;
+    margin: 5px auto;
+    width: 60%;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.searchResult:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.searchTitle {
+    font-weight: bold;
+    font-size: 18px;
+    display: block;
+}
